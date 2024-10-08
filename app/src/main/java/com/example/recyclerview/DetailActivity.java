@@ -22,16 +22,16 @@ public class DetailActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String stoneName = intent.getStringExtra("stone_name");
         int stoneImage = intent.getIntExtra("stone_image", 0);
-        int stoneIndex = intent.getIntExtra("stone_index", 0); // استلام الفهرس
+        int stoneIndex = intent.getIntExtra("stone_index", 0);
 
-        // تعيين الاسم والصورة
+
         textViewDetail.setText(stoneName);
         imageViewDetail.setImageResource(stoneImage);
 
-        // استخدام الفهرس للحصول على التفاصيل
+
         String[] details = getResources().getStringArray(R.array.details);
         if (stoneIndex >= 0 && stoneIndex < details.length) {
-            textViewDetail.append("\n\n" + details[stoneIndex]); // إضافة التفاصيل إلى النص
+            textViewDetail.append("\n\n" + details[stoneIndex]);
         }
     }
 }

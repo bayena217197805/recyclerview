@@ -35,12 +35,12 @@ public class StoneAdapter extends RecyclerView.Adapter<StoneAdapter.ViewHolder> 
                 @Override
                 public void onClick(View view) {
                     activity.onItemClicked(Stones.indexOf(view.getTag()));
-                    int position = getAdapterPosition(); // الحصول على الفهرس
+                    int position = getAdapterPosition();
                     Stone selectedStone = Stones.get(position);
                     Intent intent = new Intent(itemView.getContext(), DetailActivity.class);
                     intent.putExtra("stone_name", selectedStone.getName());
                     intent.putExtra("stone_image", selectedStone.getImg());
-                    intent.putExtra("stone_index", position); // تمرير الفهرس
+                    intent.putExtra("stone_index", position);
                     itemView.getContext().startActivity(intent);
                 }
             });
