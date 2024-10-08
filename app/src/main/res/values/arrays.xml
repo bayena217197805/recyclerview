@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="stones">
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Saturn</item>
+        <item>Jupiter</item>
+        <item>Sun</item>
+        <item>Mercury</item>
+    </string-array>
+
+    <string-array name="details">
+        <item>Earth is the third planet from the Sun and the only astronomical object known to harbor life. </item>
+        <item>Mars is the fourth planet from the Sun. The surface of Mars is orange-red because it is covered in iron(III) oxide dust.</item>
+        <item>Saturn is the sixth planet from the Sun and the second largest in the Solar System, after Jupiter.</item>
+        <item>Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than 2.5 times that of all the other planets in the Solar System combined and slightly less than one-thousandth the mass of the Sun.</item>
+        <item>The Sun is the star at the center of the Solar System. It is a massive, nearly perfect sphere of hot plasma.</item>
+        <item>Mercury is the first planet from the Sun and the smallest in the Solar System. In English, it is named after the ancient Roman god Mercurius (Mercury).</item>
+    </string-array>
+</resources>
